@@ -1,0 +1,4 @@
+[client-2] SEND Increment(counter=y, delta=1) L=1
+[client-2] RECV IncrementReply(new_value=1) L=8 (received L=7)
+[client-2] SEND Increment(counter=y, delta=1) L=9
+[client-2] RECV IncrementReply(new_value=2) L=14 (received L=13)
