@@ -1,0 +1,12 @@
+[client-F] SEND Increment(counter=x, delta=1) L=1
+[client-F] SEND Increment(counter=x, delta=1) L=2
+[client-F] SEND Increment(counter=x, delta=1) L=3
+[client-F] RECV IncrementReply(new_value=1) L=5 (received L=4)
+[client-F] RECV IncrementReply(new_value=1) L=6 (received L=5)
+[client-F] RECV IncrementReply(new_value=1) L=7 (received L=6)
+[client-F] SEND Increment(counter=x, delta=1) L=8
+[client-F] SEND Increment(counter=x, delta=1) L=9
+[client-F] SEND Increment(counter=x, delta=1) L=10
+[client-F] RECV IncrementReply(new_value=1) L=12 (received L=11)
+[client-F] RECV IncrementReply(new_value=1) L=13 (received L=12)
+[client-F] RECV IncrementReply(new_value=1) L=14 (received L=13)

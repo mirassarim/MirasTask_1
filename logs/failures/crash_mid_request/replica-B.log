@@ -1,0 +1,1 @@
+[replica-B] RECV Increment(counter=x, delta=1) L=3 (received L=2)

@@ -1,0 +1,8 @@
+[replica-B] RECV Increment(counter=x, delta=1) L=3 (received L=2)
+[replica-B] APPLY counter=x -> 1 L=4
+[replica-B] SEND IncrementReply(new_value=1) L=5
+[replica-B] RECV Increment(counter=x, delta=1) L=10 (received L=9)
+[replica-B] DEDUP key=dup-key -> 1 L=11
+[replica-B] SEND IncrementReply(new_value=1) L=12
+[replica-B] RECV Get(counter=x) L=13 (received L=1)
+[replica-B] SEND GetReply(value=1, found=True) L=14

@@ -1,0 +1,7 @@
+[client-F] SEND Increment(counter=x, delta=1) L=1
+[client-F] SEND Increment(counter=x, delta=1) L=2
+[client-F] SEND Increment(counter=x, delta=1) L=3
+[client-F] RECV IncrementReply(new_value=1) L=5 (received L=4)
+[client-F] RECV IncrementReply(new_value=1) L=7 (received L=6)
+[client-F] SEND Increment(counter=x, delta=1) L=8
+[client-F] RECV IncrementReply(new_value=1) L=12 (received L=11)
